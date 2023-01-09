@@ -72,7 +72,22 @@ Beispiel: https://ti-lage.prod.ccs.gematik.solutions/lageapi/v1/tilage/tid/ARVTO
 ```
 
 # TI Kennzahlen
-Kennzahlen werden immer in Form eines Wertes zu einem konkreten Erhebungszeitpukt bereitgestellt. Jede Kennzahl ist durch eine eindeute Kennzahl-Id identifiziert, dies muss für den Abruf entsprechend angegeben werden.
+Kennzahlen werden immer in Form eines Wertes zu einem konkreten Erhebungszeitpukt bereitgestellt. Jede Kennzahl ist durch eine eindeutige Kennzahl-Id
+identifiziert, dies muss für den Abruf entsprechend angegeben werden.
+Folgende Kennzahl-Ids/[:kpiId] sind aktuell vergeben:  
+    
+1000 - "Eingelöste E-Rezepte"      
+
+1006 - "E-Rezept-fähige Apotheken laut Verzeichnisdienst"     
+ 
+1008 - "Medizinische Einrichtungen, die E-Rezepte ausstellen"  
+     
+1009 - "Apotheken, die E-Rezepte einlösen"       
+
+1007 - "E-Rezept App Downloads"     
+
+
+ 
 
 ## aktueller Wert einer spezifischen Kennzahl
 ```
